@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,22 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Jayee's Blog
+email: jayee.jiayi.fu@google.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  There is no such thing as "too late" in life.
+baseurl: ""
+url: ""
+# twitter_username: Jayee
+github_username: Jayee-Jiayi-Fu
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -53,3 +50,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# jekyll目录结构主要包含如下目录：
+
+# _posts 博客内容
+# _pages 其他需要生成的网页，如About页
+# _layouts 网页排版模板
+# _includes 被模板包含的HTML片段，可在_config.yml中修改位置
+# assets 辅助资源 css布局 js脚本 图片等
+# _data 动态数据
+# _sites 最终生成的静态网页
+# _config.yml 网站的一些配置信息
+# index.html 网站的入口
